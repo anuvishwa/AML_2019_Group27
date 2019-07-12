@@ -21,23 +21,6 @@ AdaGrad
 Adaptive gradient, or AdaGrad (Duchi et al., 2011), works on the learning rate component by dividing the learning rate by the square root of S, which is the cumulative sum of current and past squared gradients (i.e. up to time t). Note that the gradient component remains unchanged like in stochastic gradient descent. 
  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 •	Gradient Descent 
 
 First we started with combinations given below (eta =0.001) . We started by fixing the value of x and changing the value of y. However it did change the minimum by drastic number.  
@@ -45,7 +28,11 @@ After this we started increasing the value of x it started moving after which we
 Then we changed the eta to 0.005 and repeated the same steps as above, giving us a minima at (3.5,3) which was -4.89266545418049E-36. 
 When we reduced the to 0.0001, the minma which was earlier achieved at (3.5,3.8) was achieved at 100,000 iterations. 
  
- 
+ ![Graph1](https://user-images.githubusercontent.com/52376079/61121234-9f873a00-a496-11e9-92a1-a51b04f5b5da.png)
+![Graph2](https://user-images.githubusercontent.com/52376079/61121235-9f873a00-a496-11e9-894b-17bdb59209fc.png)
+![Graph3](https://user-images.githubusercontent.com/52376079/61121236-a01fd080-a496-11e9-8972-935d6a3e628d.png)
+![Graph4](https://user-images.githubusercontent.com/52376079/61121237-a01fd080-a496-11e9-8480-4ff5501bbbe7.png)
+
 
  
 
